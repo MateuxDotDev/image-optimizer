@@ -12,9 +12,9 @@
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     <quarkus.platform.artifact-id>quarkus-bom</quarkus.platform.artifact-id>
     <quarkus.platform.group-id>io.quarkus.platform</quarkus.platform.group-id>
-    <quarkus.platform.version>3.12.2</quarkus.platform.version>
+    <quarkus.platform.version>3.12.3</quarkus.platform.version>
     <skipITs>true</skipITs>
-    <surefire-plugin.version>3.3.0</surefire-plugin.version>
+    <surefire-plugin.version>3.3.1</surefire-plugin.version>
     <jacoco.version>0.8.12</jacoco.version>
     <sonar.exclusions>**/Roles.kt,**/*Test.kt</sonar.exclusions>
     <sonar.cpd.exclusions>**/AuthResource.kt</sonar.cpd.exclusions>
@@ -107,7 +107,7 @@
     <dependency>
       <groupId>org.mockito.kotlin</groupId>
       <artifactId>mockito-kotlin</artifactId>
-      <version>5.3.1</version>
+      <version>5.4.0</version>
       <scope>test</scope>
     </dependency>
     <dependency>
